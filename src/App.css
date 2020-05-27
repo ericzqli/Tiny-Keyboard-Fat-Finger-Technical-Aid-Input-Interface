@@ -1,0 +1,22 @@
+.code-box-demo {
+  text-align: center;
+}
+.ant-layout-header,
+.ant-layout-footer {
+  background: #f8f8f8;
+  color: rgb(7, 7, 7);
+}
+.ant-layout-footer {
+  line-height: 1.5;
+}
+.ant-layout-sider {
+  background: #fff;
+  //  color: #070707;
+  line-height: 50px;
+}
+> .code-box-demo > div > .ant-layout {
+  margin-bottom: 48px;
+}
+> .code-box-demo > div > .ant-layout:last-child {
+  margin: 0;
+}

@@ -1,0 +1,166 @@
+.code-box-demo {
+  text-align: center;
+}
+.ant-layout-header,
+.ant-layout-footer {
+  background: #f8f8f8;
+  color: rgb(7, 7, 7);
+}
+.ant-layout-footer {
+  line-height: 1.5;
+}
+.ant-layout-sider {
+  /* background: #fff; */
+  /* // color: #070707; */
+  line-height: 20px;
+}
+
+> .code-box-demo > div > .ant-layout {
+  margin-bottom: 48px;
+}
+> .code-box-demo > div > .ant-layout:last-child {
+  margin: 0;
+}
+
+.upLetterB {
+  background: #070707;
+  color: #fff;
+}
+
+.downLetterB {
+  background: #070707;
+  color: #fff;
+  clear: both;
+}
+
+.leftLetterB {
+  background: #070707;
+  color: #fff;
+  float: left;
+  width: 33.3%;
+}
+
+.middleLetterB {
+  background: #070707;
+  color: #fff;
+  width: 33.3%;
+  float: left;
+}
+.middleLetterB2 {
+  background: #070707;
+  color: #fff;
+  font-size: 7px;
+  width: 33.3%;
+  float: left;
+}
+
+.rightLetterB {
+  background: #070707;
+  color: #fff;
+  float: left;
+
+  width: 33.3%;
+}
+
+.leftLetterW {
+  background: #fff;
+  float: left;
+  width: 33.3%;
+}
+
+.middleLetterW {
+  background: #fff;
+  color: #070707;
+  width: 33.3%;
+  float: left;
+}
+.middleLetterW2 {
+  background: #fff;
+  color: #070707;
+  font-size: 6px;
+  width: 33.3%;
+  float: left;
+}
+
+.rightLetterW {
+  background: #fff;
+  color: #070707;
+  float: left;
+  width: 33.3%;
+}
+
+.upLetterW {
+  background: #fff;
+  color: #070707;
+}
+
+.downLetterW {
+  background: #fff;
+  color: #070707;
+  clear: both;
+}
+
+.upBorder {
+  height: 0px;
+}
+
+.leftBorder {
+  height: 150px;
+  float: left;
+  width: 0%;
+}
+
+.rightBorder {
+  height: 150px;
+  float: left;
+  width: 0%;
+}
+
+.downBorder {
+  height: 0px;
+}
+
+.middleCom {
+  float: left;
+  width: 100%;
+}
+
+.leftEmpty {
+  height: 120px;
+  background: #fff;
+}
+.rightEmpty {
+  height: 120px;
+  background: #fff;
+}
+
+.topEmpty {
+  height: 40px;
+  background: #fff;
+  color: #070707;
+}
+
+.topLetter {
+  height: 40px;
+  background: #070707;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+}
+.middleLetter {
+  height: 40px;
+  background: #fff;
+  color: #070707;
+  line-height: 40px;
+}
+
+/* 
+  .nonscroll {
+  overflow: hidden;
+  position: relative;
+  } */
+body {
+  user-select: none;
+  overflow: hidden;
+  position: relative;
+}
